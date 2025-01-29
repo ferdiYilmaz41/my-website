@@ -28,7 +28,7 @@ const Hero = () => {
 
 
                             <div className='absolute -right-6 md:-right-32 bottom-0'>
-                                <img src={Foto} alt="" className=' scale-110 relative z-10  w-[150px] 
+                                <img src={Foto} alt="" className='py-10 scale-100 relative z-10  w-[150px] 
                                 sm:w-[250px]
                         ' />
                             </div>
