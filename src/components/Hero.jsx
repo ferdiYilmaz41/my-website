@@ -1,35 +1,41 @@
-import Foto from '../assets/gözlüklü.jpg'
-import { FaArrowRight, FaDribbble, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import Foto from '../assets/foto.png'
+import { FaArrowRight, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Hero = () => {
     return (
         <>
-            <main className="bg-gray text-white">
-                <div className="container">
-                    <div className='grid gap-12 grid-cols-1 md:grid-cols-3 min-h-[600px]
-                     place-items-center py-20 md:py-0'>
+            <main className="bg-gray text-white ">
+                <div className="container mx-auto px-4">
+                    <div className='grid gap-12 grid-cols-1 lg:grid-cols-2 min-h-[500px]
+                     place-items-center pt-20 md:py-0 '>
                         {/* image section */}
-                        <div className="grid col-span-2 relative h-full justify-center 
-                    items-center py-20">
-                            <div className='w-[280px] sm:w-[400px] md:w-[450px]'>
+                        {/* <div className="grid col-span-2 relative h-full justify-center 
+                    items-center py-5"> */}
+                        <div className="relative h-full flex flex-col justify-between items-start  ">
+                            <div className='w-[350px] sm:w-[400px] md:w-[450px] mt-4 lg:mt-36'>
                                 <h1 className="text-4xl md:text-6xl font-semibold relative z-20
-                            ">Ferdi İslam <br/>Yılmaz.</h1>
-                                <div className="h-[3px] w-[100px] bg-primary mt-4"></div>
+                                ">Ferdi İslam <br />Yılmaz.
+                                </h1>
+                                <div className="h-[3px] w-[100px] bg-primary mt-0"></div>
                             </div>
                             {/* Social contacts section */}
-                            <div className='flex gap-6 mt-24'>
-                                <FaDribbble className='text-2xl text-primary hover:scale-110 
-                        cursor-pointer duration-200'/>
-                                <FaInstagram className='text-2xl text-primary hover:scale-110 
-                        cursor-pointer duration-200'/>
-                                <FaLinkedin className='text-2xl text-primary hover:scale-110 
-                        cursor-pointer duration-200'/>
+                            <div className='flex w-full gap-6 py-8 lg:mb-16 z-30 '>
+
+                                <a href="https://www.instagram.com/ferdiyl" target="_blank" rel="noopener noreferrer">
+                                    <FaInstagram className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
+                                </a>
+                                <a href="https://www.linkedin.com/in/yilmaz-ferdi" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
+                                </a>
+                                <a href="https://github.com/ferdiYilmaz41" target="_blank" rel="noopener noreferrer">
+                                    <FaGithub className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
+                                </a>
                             </div>
 
 
-                            <div className='absolute -right-6 md:-right-32 bottom-0'>
-                                <img src={Foto} alt="" className='py-10 scale-100 relative z-10  w-[150px] 
-                                sm:w-[250px]
+                            <div className='absolute -right-6 lg:-right-[180px] bottom-0'>
+                                <img src={Foto} alt="" className=' scale-100 relative z-10  w-[300px] 
+                                 lg:w-[500px]
                         ' />
                             </div>
 

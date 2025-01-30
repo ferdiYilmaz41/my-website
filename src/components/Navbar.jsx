@@ -1,5 +1,5 @@
 import { GiHamburgerMenu } from 'react-icons/gi';
-import Logo from '../assets/happy-logo.png'
+import Logo from '../assets/my_logo.png'
 
 const NavMenu = [
   {
@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="container flex justify-between items-center ">
           {/* Navbar */}
           <div>
-            <img src={Logo} alt="logo" className='w-[80px] py-5'/>
+            <img src={Logo} alt="logo" className='w-[80px] py-5 hover:scale-105'/>
           </div>
           {/* Navbar */}
           <div>
