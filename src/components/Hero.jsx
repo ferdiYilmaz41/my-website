@@ -1,5 +1,5 @@
 import Foto from '../assets/foto.png'
-import { FaArrowRight, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaArrowRight, FaGithub, FaRegEnvelope , FaLinkedin, } from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -9,8 +9,7 @@ const Hero = () => {
                     <div className='grid gap-12 grid-cols-1 lg:grid-cols-2 min-h-[500px]
                      place-items-center pt-20 md:py-0 '>
                         {/* image section */}
-                        {/* <div className="grid col-span-2 relative h-full justify-center 
-                    items-center py-5"> */}
+                        
                         <div className="relative h-full flex flex-col justify-between items-start  ">
                             <div className='w-[350px] sm:w-[400px] md:w-[450px] mt-4 lg:mt-36'>
                                 <h1 className="text-4xl md:text-6xl font-semibold relative z-20
@@ -21,14 +20,15 @@ const Hero = () => {
                             {/* Social contacts section */}
                             <div className='flex w-full gap-6 py-8 lg:mb-16 z-30 '>
 
-                                <a href="https://www.instagram.com/ferdiyl" target="_blank" rel="noopener noreferrer">
-                                    <FaInstagram className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
-                                </a>
+                                
                                 <a href="https://www.linkedin.com/in/yilmaz-ferdi" target="_blank" rel="noopener noreferrer">
                                     <FaLinkedin className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
                                 </a>
                                 <a href="https://github.com/ferdiYilmaz41" target="_blank" rel="noopener noreferrer">
                                     <FaGithub className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
+                                </a>
+                                <a href="mailto:yilmaz.ferdiislam@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <FaRegEnvelope  className='text-2xl text-primary hover:scale-110 cursor-pointer duration-200' />
                                 </a>
                             </div>
 
