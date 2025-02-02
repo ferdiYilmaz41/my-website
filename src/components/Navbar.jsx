@@ -1,21 +1,27 @@
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Logo from '../assets/my_logo.png'
+import { link, title } from 'framer-motion/client';
 
 const NavMenu = [
   {
     id: 1,
-    title: 'Services',
-    link: '#'
+    title: 'About',
+    link: '#about'
   },
   {
     id: 2,
-    title: 'Works',
-    link: '#'
+    title: 'Skills',
+    link: '#skills'
   },
   {
     id: 3,
-    title: 'Blog',
-    link: '#'
+    title: 'Projects',
+    link: '#projects'
+  },
+  {
+    id:4,
+    title: 'Contact',
+    link: '#contact'
   }
 
 ]

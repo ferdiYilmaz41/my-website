@@ -41,7 +41,7 @@ const Hero = () => {
 
                         </div>
                         {/* text content section */}
-                        <div className=' space-y-7 relative z-20'>
+                        <div className=' space-y-7 relative z-20 pb-4 lg:pb-0'>
                             <p className='text-sm leading-4 opacity-70 
                         tracking-widest font-serif translate-y-3'>
                                 - Introduction
@@ -56,8 +56,8 @@ const Hero = () => {
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <button className='text-primary  border-b-2
-                         border-primary text-xl font-bold p-1 flex items-center gap-2 group'>
-                                My story
+                         border-primary text-xl font-bold p-1 flex items-center gap-2 group '>
+                                My CV
                                 <FaArrowRight className='group-hover:translate-x-1 transition 
                             duration-200 '/>
                             </button>

@@ -29,12 +29,12 @@ const Projects = () => {
   return (
     <section className="bg-gray text-white py-20">
       <div className="container mx-auto px-4">
-      <h1 className="text-2xl font-semibold ">My Projects</h1>
+      <h1 className="text-2xl font-semibold ">Projects</h1>
       <div className="h-[3px] w-[100px] bg-primary my-4"></div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <a className='text-[16px]'>
-            These are the projects I can present. Excluding the small ones.
+            <a className='text-2xl'>
+            Here is a selection of my key projects.
             </a>
           </div>
           {projectsData.map((project, index) => (
