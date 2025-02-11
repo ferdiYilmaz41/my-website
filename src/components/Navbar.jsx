@@ -1,6 +1,5 @@
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Logo from '../assets/my_logo.png'
-import { link, title } from 'framer-motion/client';
 
 const NavMenu = [
   {
@@ -10,13 +9,14 @@ const NavMenu = [
   },
   {
     id: 2,
-    title: 'Skills',
-    link: '#skills'
+    title: 'Projects',
+    link: '#projects'
   },
   {
     id: 3,
-    title: 'Projects',
-    link: '#projects'
+    title: 'Skills',
+    link: '#skills'
+    
   },
   {
     id:4,

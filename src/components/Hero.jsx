@@ -47,13 +47,13 @@ const Hero = () => {
                                 - Introduction
                             </p>
                             <h1 className='lg:text-2xl text-3xl '>
-                                Data scientist and computer engineer falan filon falan filon
+                            Data Scientist and Computer Engineer, passionate about AI & Analytics. 
                             </h1>
                             <p className='text-sm leading-5 opacity-70 '>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Hi, I&apos;m Ferdi! A data scientist and software engineer who loves working with 
+                            data, AI, and web technologies. Whether it&apos;s developing machine learning models, 
+                            creating interactive applications, or analyzing data for insights, I enjoy solving 
+                            complex problems. Always learning and building!
                             </p>
                             <button className='text-primary  border-b-2
                          border-primary text-xl font-bold p-1 flex items-center gap-2 group '>

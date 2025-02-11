@@ -11,6 +11,7 @@ const Project = ({ title, description, link, technologies }) => {
         {technologies.map((tech, index) => (
           <span key={index} title={tech.key} className="text-2xl text-[#14213d]">{tech}</span>
         ))}
+        
       </div>
       <a href={link} target="_blank" rel="noopener noreferrer" >
         <p className="text-[#003049] hover:underline italic group flex items-center gap-2"
@@ -25,7 +26,7 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-  technologies: PropTypes.array.isRequired,
+  technologies: PropTypes.arrayOf(PropTypes.node).isRequired,
 };
 
 export default Project;
