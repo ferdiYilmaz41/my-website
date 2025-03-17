@@ -1,6 +1,6 @@
 import Project from './Project';
-import {  FaHtml5, FaCss3Alt, FaGithub, FaDocker, FaAws, FaPython } from 'react-icons/fa';
-import {  SiJavascript, SiTensorflow, SiKeras, SiOpencv, SiNumpy, SiPandas } from 'react-icons/si';
+import {   FaGithub, FaDocker, FaAws, FaPython } from 'react-icons/fa';
+import {   SiTensorflow, SiKeras, SiOpencv, SiNumpy, SiPandas } from 'react-icons/si';
 
 const projectsData = [
   {
